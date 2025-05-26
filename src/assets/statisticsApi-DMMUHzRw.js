@@ -1,0 +1,1 @@
+import{n as s}from"./index-CCQ4VAXS.js";const i={getDailyStatistics(t={}){return s.get("/v1/statistics/daily",{params:t})},getMonthlyReport(t={}){return s.get("/v1/statistics/monthly",{params:t})},getProductErrorStatistics(t={}){return s.get("/v1/statistics/product-errors",{params:t})}};export{i as s};
